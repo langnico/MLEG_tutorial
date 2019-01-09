@@ -1,0 +1,6 @@
+data/*
+pretrained_models_imageNet/*
+model_weights/*
+
+.ipynb_checkpoints/
+
