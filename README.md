@@ -70,13 +70,13 @@ We propose to install python via anaconda.
 
 
 ## Verify your installation
-1. In the activated MLEGenv type ```which python```. This should point to the python installation in your conda env e.g. ```/anaconda3/envs/DL_tutorial/bin/python```
+1. In the activated MLEGenv type ```which jupyter```. This should point to the python installation in your conda env e.g. ```/username/anaconda3/envs/DL_tutorial/bin/jupyter```
 
 2. Open a terminal and go to the location of the file: `installation_check.ipynb`
 
     Then open the jupyter notebook with: ```jupyter notebook installation_check.ipynb```
 
-    NOTE: If this does not automatically open a browser showing the notebook, then open a browser (Firefox, Chrome) and type: `http://localhost:8889/notebooks/installation_check.ipynb`
+    NOTE: If this does not automatically open a browser showing the notebook, then open a browser (Firefox, Chrome) and type: `http://localhost:8888/notebooks/installation_check.ipynb`
     
     Then select the first cell containing the imports and click on the `> Run` Button.
     If your installation was successful, the output should be like this:
